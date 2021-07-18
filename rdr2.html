@@ -20,6 +20,9 @@
             font-family: "RDR Lino";
             font-size: 2ch;
         }
+        #title {
+            background-color: rgb(0, 0, 0);
+        }
         div {
             font-family: "RDR Lino";
         }
@@ -35,10 +38,13 @@
         #header a:hover {
             color:blueviolet;
         }
-        .GUIsm, .CUIsm, .CodeSwine, .CacheCleaner, .SndFix {
+        .GUIsm, .CUIsm,.BlackList, .CodeSwine, .CacheCleaner, .SndFix {
             font-family: 'Noto Serif KR', serif;
             font-size: 20px;
             text-align: center;
+        }
+        #pro {
+            width: 10cm;
         }
     </style>
 </head>
@@ -47,7 +53,7 @@
         <h1><a href=https://whitefacehair.github.io>WhiteFaceHair-NET</a></h1>
         <h2>Red Dead Online Utility</h2>
     </div>
-    <hr>
+    <hr id="title">
 
     <div class="GUIsm">
         <h2>세션 관리자</h2>
@@ -56,20 +62,29 @@
         <p><a href="GUIsmNotice.html">주의사항</a></p>
         <p><a href="GUIsmUsage.html">사용방법</a></p>
     </div>
+    <hr id="pro">
     <div class="CUIsm">
         <h2>(구)세션 관리자</h2>
         <p><a href="CUIsmDownload.html">다운로드</a></p>
         <!-- <p><a href="http://">사용방법</a></p> -->
     </div>
+    <hr id="pro">
+    <div class="BlackList">
+        <h2>블랙리스트 프로그램</h2>
+        <p><a href="BlackListUsage.html">사용법 및 주의사항</a></p>
+    </div>
+    <hr id="pro">
     <div class="CodeSwine">
         <h2>코드 스와인</h2>
         <p><a href="https://gall.dcinside.com/mgallery/board/view?id=rdr2&no=258125">사용법 및 다운로드</a></p>
     </div>
+    <hr id="pro">
     <div class="CacheCleaner">
         <h2>캐시 클리너</h2>
         <p><a href="https://github.com/WhiteFaceHair/Red-Dead-Deletion/releases/download/210412/RDO_CacheCleaner.bat">다운로드</a></p>
         <p><a href="https://github.com/WhiteFaceHair/Red-Dead-Deletion">사용방법</a></p>
     </div>
+    <hr id="pro">
     <div class=SndFix>
         <h2>볼륨 버그 해결기</h2>
         <p><a href="https://github.com/WhiteFaceHair/SessionManager/releases/download/VBH/VolumeBug_Helper.bat">다운로드</a></p>
@@ -78,7 +93,7 @@
 </body>
 <footer>
     <br>
-    <hr>
+    <hr id="title">
     <div>Font made from <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a> is licensed by CC BY 3.0</div>
 </footer>
 </html>
